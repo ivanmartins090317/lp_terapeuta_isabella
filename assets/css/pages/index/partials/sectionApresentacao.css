@@ -1,0 +1,38 @@
+.apresentacao picture{
+  display:block;
+  width:100%;
+  background:#FFFFFF;
+}
+
+.menu-float{
+  width:80%;
+  position:fixed;
+  top:5%;
+  left: 50%;
+  transform: translateX(-25%);
+}
+.menu{
+  width:60%;
+  display:flex;
+  gap:2%;
+  justify-content:space-around;
+  padding:1%;
+  border-radius:12px;
+  background: rgba(1, 1, 1, 0.3);
+}
+.menu img{
+  width:7%;
+}
+.menu ul{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  list-style:none;
+  gap:4%;
+  font-family:sans-serif;
+}
+.menu button{
+ padding:1% 4%;
+ border-radius:12px;
+ font-family:sans-serif;
+}
