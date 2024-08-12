@@ -1,0 +1,13 @@
+.section_depoimentos{
+  overflow-x: hidden;
+  margin:10% auto 0;
+}
+.section_depoimentos h2{
+  width:100%;
+  text-align:center;
+  margin:0 auto;
+}
+.section_depoimentos p{
+  margin:0 auto 5%;
+  text-align:center;
+}

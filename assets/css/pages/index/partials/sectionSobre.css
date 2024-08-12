@@ -1,0 +1,23 @@
+.section_sobre{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin:15% auto 0;
+}
+
+
+
+  @media (max-width: 1100px){
+  .section_sobre{
+    display:flex;
+    flex-direction:column;
+  }
+  .imagem-holistica{
+    order:1
+  }
+  .texto-holistica{
+    width:95%;
+    order:2;
+    text-align:center;
+  }
+}

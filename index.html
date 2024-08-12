@@ -6,9 +6,17 @@
   <meta name="HandheldFriendly" content="true">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-
+  
+  <!-- ICONES GOOGLE -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
   <title>Terapeuta Isabella Ribeiro</title>
   <meta property="og:title" content="Nome do Site">
+
+  <!-- LIB CAROUSEL -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
   <meta name="description" content="Escreva a descrição do site aqui.">
   <meta itemprop="description" content="Escreva a descrição do site aqui.">
@@ -55,27 +63,199 @@
 </head>
 <body>
  <div class="menu-float">
-  <div class="menu">
-    <img src="files/logo_Isabella.png" alt="">
-    <ul>
-      <li>Terapia</li>
-      <li>Sobre</li>
-      <li>Beneficios</li>
-      <li>Técnicas</li>
-      <li>Experiencias</li>
-      <li>Experimente</li>
-    </ul>
-    <button>Contato</button>
+    <div class="menu">
+      <img src="files/logo_Isabella.png" alt="">
+      <ul>
+        <li>Terapia</li>
+        <li>Sobre</li>
+        <li>Beneficios</li>
+        <li>Técnicas</li>
+        <li>Experiencias</li>
+        <li>Experimente</li>
+      </ul>
+      <button>Contato</button>
   </div>
  </div>
   <!-- seção apresentação -->
   <section class="apresentacao">
       <picture >
-        <source media="(max-width: 1100px)" srcset="files/banner_beneficios_mobile.png">
-        <img width="100%" height="auto" src="files/image_apresentacao.png" alt="Banner beneficios Fast Shop">
+        <source media="(max-width: 1100px)" srcset="files/apresentacao-mobile.png">
+        <img width="100%" height="auto" src="files/section-spresentação-v3.png" alt="Banner beneficios Fast Shop">
       </picture>
   </section>
+  <section class="corpo">
+    <section class="section_holistica">
+      <div class="imagem-holistica">
+        <picture >
+          <img width="100%" height="auto" src="files/imagem_holistica_01.png" alt="Banner beneficios Fast Shop">
+        </picture>
+      </div>
+      <div class="texto-holistica">
+        <h2>A terapia holística: promovendo equilíbrio e harmonia</h2>
+        <h3>Terapia Holistica o que é?</h3>
+        <p>Oferecemos uma jornada para o equilíbrio completo do corpo, mente e alma. Viva uma vida vibrante, livre de sintomas, ao
+        tratarmos as causas raiz de seus problemas de saúde. Experimente uma abordagem integrada que promove harmonia em todas
+        as áreas da sua vida.</p>
+      </div>
+  
+    </section>
+    <section class="section_sobre">
+      <div class="texto-holistica">
+        <h2>Sou Isabella Ribeiro</h2>
+        <h3>Terapeuta Holistica</h3>
+        <p>Oferecemos uma jornada para o equilíbrio completo do corpo, mente e alma. Viva uma vida vibrante, livre de sintomas, ao
+          tratarmos as causas raiz de seus problemas de saúde. Experimente uma abordagem integrada que promove harmonia em todas
+          as áreas da sua vida.</p>
+        </div>
+        <div class="imagem-holistica">
+        <picture >
+          <img width="100%" height="auto" src="files/imagem_holistica_01.png" alt="Banner beneficios Fast Shop">
+        </picture>
+      </div>
+  
+    </section>
+    <section class="section_beneficios">
+      <picture >
+        <img width="100%" height="auto" src="files/imagem_beneficios.png" alt="Banner beneficios Fast Shop">
+      </picture>
+      <div class="texto-holistica">
+        <h2>Beneficios</h2>
+        <h3>Promove equilíbrio físico, emocional e espiritual para uma vida plena.</h3>
+        <ul>
+          <li><span class="material-symbols-outlined">
+            check_circle
+          </span>Liberte-se da ansiedade para uma vida mais tranquila.</li>
+          <li><span class="material-symbols-outlined">
+            check_circle
+          </span>Cure seus traumas, embarcando em uma jornada de liberdade.</li>
+          <li><span class="material-symbols-outlined">
+            check_circle
+          </span>Fortaleça sua autoestima, abraçando seu potencial ilimitado.</li>
+          <li><span class="material-symbols-outlined">
+            check_circle
+          </span>Descubra sua verdade interior e liberte seu máximo potencial.</li>
+         
+        </ul>
+        </div>
+        <div class="imagem-holistica">
+      </div>
+  
+    </section>
+  </section>
+<section class="section_tecnicas">
 
+  <h2>Utilizo uma variedade de técnicas,
+  visando sempre o melhor a cada indivíduo.</h2>
+  <div id="rotativo_tecnicas" class="owl-carousel fast_rotativo">
+    <picture>
+      <source media="(max-width: 1100px)"
+        srcset="files/CARD-FLORATERAPIA-mobile.png">
+      <img src="files/CARD-FLORATERAPIA-desktop.png"
+        alt="Foto Guilherme Paiva com filho" class="additional-images">
+      <!-- <a href="#" class="link"></a> -->
+  
+    </picture>
+    <picture>
+      <source media="(max-width: 1100px)"
+        srcset="files/CARD-VENTOSATERAPIA-mobile.png">
+      <img src="files/CARD-VENTOSATERAPIA-desktop.png"
+        alt="Foto Guilherme Paiva com filho" class="additional-images">
+      <!-- <a href="#" class="link"></a> -->
+    </picture>
+    <picture>
+      <source media="(max-width: 1100px)"
+        srcset="files/CARD-REIKE-mobile.png">
+      <img src="files/CARD-REIKE-desktop.png"
+        alt="Foto Guilherme Paiva com filho" class="additional-images">
+      <!-- <a href="#" class="link"></a> -->
+    </picture>
+    <picture>
+      <source media="(max-width: 1100px)"
+        srcset="files/CARD-AROMATERAPIA-mobile.png">
+      <img src="files/CARD-AROMATERAPIA-desktop.png"
+        alt="Foto Guilherme Paiva com filho" class="additional-images">
+      <!-- <a href="#" class="link"></a> -->
+  
+    </picture>
+    <picture>
+      <source media="(max-width: 1100px)"
+        srcset="files/CARD-AURICOTERAPI-mobile.png">
+      <img src="files/CARD-AURICOTERAPI-desktop.png"
+        alt="Foto Guilherme Paiva com filho" class="additional-images">
+      <!-- <a href="#" class="link"></a> -->
+    </picture>
+  
+  </div>
+</section>
+<section class="section_depoimentos">
+
+  <h2>Experiências<br>Transformadoras</h2> 
+  <p>Depoimentos dos Nossos Clientes</p>
+  <div id="rotativo_depoimentos" class="owl-carousel fast_rotativo">
+    <picture>
+      <source media="(max-width: 1100px)"
+        srcset="files/card-depoimentos-01.png">
+      <img src="files/card-depoimentos-01.png"
+        alt="depoimentos" class="additional-images">
+      <!-- <a href="#" class="link"></a> -->
+    </picture>
+    <picture>
+      <source media="(max-width: 1100px)"
+        srcset="files/card-depoimentos-01.png">
+      <img src="files/card-depoimentos-01.png"
+        alt="depoimentos" class="additional-images">
+      <!-- <a href="#" class="link"></a> -->
+    </picture>
+    <picture>
+      <source media="(max-width: 1100px)"
+        srcset="files/card-depoimentos-01.png">
+      <img src="files/card-depoimentos-01.png"
+        alt="depoimentos" class="additional-images">
+      <!-- <a href="#" class="link"></a> -->
+    </picture>
+    <picture>
+      <source media="(max-width: 1100px)"
+        srcset="files/card-depoimentos-01.png">
+      <img src="files/card-depoimentos-01.png"
+        alt="depoimentos" class="additional-images">
+      <!-- <a href="#" class="link"></a> -->
+    </picture>
+  
+  
+  </div>
+</section>
+    <section class="section_experimente">
+      <div class="texto-experimente">
+        <h2>Experimente a diferença que a terapia holística pode fazer em sua vida.</h2>
+        <h3>Embarque em uma jornada de cura e transformação pessoal.</h3>
+        <p>Descubra o equilíbrio interior com nossos serviços de terapia holística. Renove-se e transforme sua vida.</p>
+        <button class="button-cta">
+          <a href="#">Agende uma consulta hoje mesmo</a>
+        </button>
+      </div>
+      <div class="imagem-holistica">
+        <picture>
+          <img width="100%" height="auto" src="files/imagem_holistica_01.png" alt="Banner beneficios Fast Shop">
+        </picture>
+      </div>
+    </section>
+  <footer>
+    <div class="footer">
+      <div class="enderco">
+        <h3>Nós estamos esperando por você</h3>
+        <p class="adress">Rua maranhão, 1902, Embaré, Santos-SP</p>
+      </div>
+      <div class="contato">
+        <h3>Contatos</h3>
+        <p>13 999999</p>
+      </div>
+      <div class="midias">
+        <h3>Nossas redes</h3>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+      </div>
+    </div>
+  </footer>
   <script src="./assets/js/global/global.js"></script>
  
 

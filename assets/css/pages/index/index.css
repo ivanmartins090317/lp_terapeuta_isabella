@@ -3,3 +3,10 @@
 
 /* Partials */
 @import './partials/sectionApresentacao.css';
+@import './partials/sectionHolistica.css';
+@import './partials/sectionSobre.css';
+@import './partials/sectionBeneficios.css';
+@import './partials/sectionTecnicas.css';
+@import './partials/sectionDepoimentos.css';
+@import './partials/sectionExperimente.css';
+@import './partials/footer.css';

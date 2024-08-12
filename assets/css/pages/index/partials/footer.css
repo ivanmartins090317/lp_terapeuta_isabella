@@ -1,0 +1,41 @@
+.footer{
+  height:20%;
+  display:flex;
+  justify-content:space-between;
+  padding:3%;
+  background:#E6E3DE;
+}
+.footer h3{
+  font-size:2em;
+}
+.footer p{
+  font-size:1.4em;
+}
+.footer .enderco p{
+  width:50%;
+}
+
+.footer .midias a{
+  color:#A7A7A7;
+  font-size: 1.2em;
+}
+.footer .midias{
+  display:flex;
+  flex-direction:column;
+  gap:3%
+}
+
+@media(max-width: 1100px){
+  .footer{
+    display:flex;
+    flex-direction:column;
+  }
+
+ .enderco, .contato, .midias{
+  margin-bottom:5%
+ } 
+
+ .button-cta{
+  font-size:0.8em;
+ }
+}
