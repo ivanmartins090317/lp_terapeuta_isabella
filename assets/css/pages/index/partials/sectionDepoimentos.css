@@ -11,3 +11,11 @@
   margin:0 auto 5%;
   text-align:center;
 }
+@media (max-width: 1100px){
+  .section_depoimentos h2{
+    margin-bottom:5%
+  }
+  .section_depoimentos p{
+    width:69%;
+  }
+}

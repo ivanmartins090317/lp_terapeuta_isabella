@@ -32,4 +32,12 @@ ul li .material-symbols-outlined{
     order:2;
     text-align:left;
   }
+  .section_beneficios .texto-holistica h3{
+    line-height:137%;
+    text-align:center;
+  }
+    .section_beneficios .texto-holistica ul li{
+      font-size:1.5em;
+      line-height:137%
+    }
 }

@@ -33,5 +33,10 @@
     width:95%;
     order:2;
     text-align:center;
+    margin:0 auto;
+  }
+  .button-cta{
+    font-size:0.6em;
+    padding:4% 4%;
   }
 }

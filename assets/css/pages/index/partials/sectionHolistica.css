@@ -29,4 +29,11 @@ h3{
     order:2;
     text-align:center;
   }
+  .texto-experimente h2,
+  .texto-experimente h3,
+  .texto-experimente p{
+    width:89%;
+    margin: 0 auto 5%;
+  }
+
 }

@@ -22,3 +22,15 @@
 .owl-carousel.owl-loaded .owl-nav .owl-prev{
   margin-right: 10%;
 }
+
+
+@media (max-width: 1100px){
+  .section_tecnicas h2{
+    width:89%;
+    margin-bottom:10%
+  }
+
+   .owl-carousel.owl-loaded .owl-nav{
+        margin: 10% auto 0 -12%;
+  }
+}

@@ -1,15 +1,10 @@
-(function (){
+const iconOpenMenu = document.querySelector('.icon-menu')
+const closerMenu = document.querySelector('.closer')
+const popUpMenu = document.querySelector('.nav')
 
-  // Bloqueando arrasta imagens do site para baixar
 
-  function desativarDragDrop () {
-    document.addEventListener('dragstart', (evento) => evento.preventDefault(), false)
-    document.addEventListener('drop', (evento) => evento.preventDefault(), false)
-  }
 
-  desativarDragDrop()
 
-}())
 
 
 
@@ -53,3 +48,23 @@ const carouselDelay = 1000;
     }, carouselDelay);
   }
 
+iconOpenMenu.addEventListener('click', () => {
+  popUpMenu.style.display = 'block'
+})
+closerMenu.addEventListener('click', () => {
+  popUpMenu.style.display = 'none'
+})
+
+function dragDrop(){
+
+  // Bloqueando arrasta imagens do site para baixar
+
+  function desativarDragDrop () {
+    document.addEventListener('dragstart', (evento) => evento.preventDefault(), false)
+    document.addEventListener('drop', (evento) => evento.preventDefault(), false)
+  }
+
+  desativarDragDrop()
+
+}
+dragDrop()
