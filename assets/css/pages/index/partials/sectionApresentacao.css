@@ -15,7 +15,13 @@
   background:transparent;
   position:fixed;
 }
-
+ .container-header a{
+  font-size:2.7vw;
+  background:#333333;
+  color:#fff;
+  padding:2% 4%;
+  border-radius:999px;
+}
 .nav {
   width:80%;
   position: fixed;
@@ -116,12 +122,7 @@
 }
 /* EFEITO PARA ENTRADA DO MENU */
 
-.show {
-    filter: blur(0);
-    opacity: 1;
-    transform: translateX(0%);
-    transition: all 1s;
-}
+
 @keyframes entrance {
   0%{
     transform: translateX(-100%);
@@ -133,5 +134,8 @@
 @media (max-width:1100px){
   .menu{
     display:none;
+  }
+  .container-header a{
+    padding:3% 6%;
   }
 }

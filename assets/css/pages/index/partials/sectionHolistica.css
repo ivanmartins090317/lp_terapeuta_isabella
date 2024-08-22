@@ -35,5 +35,7 @@ h3{
     width:89%;
     margin: 0 auto 5%;
   }
-
+  .texto-experimente p{
+    margin-bottom:10%
+  }
 }

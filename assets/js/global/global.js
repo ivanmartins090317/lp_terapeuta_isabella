@@ -51,8 +51,12 @@ const carouselDelay = 1000;
 iconOpenMenu.addEventListener('click', () => {
   popUpMenu.style.display = 'block'
 })
-closerMenu.addEventListener('click', () => {
-  popUpMenu.style.display = 'none'
+popUpMenu.addEventListener('click', (e) => {
+  elementClicked = e.target
+  
+  if(Array.from(elementClicked.classList).includes('link-menu')){
+    popUpMenu.style.display = 'none'
+  }
 })
 
 function dragDrop(){
