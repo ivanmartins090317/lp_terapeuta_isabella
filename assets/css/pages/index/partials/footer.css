@@ -37,6 +37,8 @@
  .enderco, .contato, .midias{
   margin:5% 5%;
  } 
-
+ .contato p{
+  color:#A7A7A7;
+ }
 
 }
