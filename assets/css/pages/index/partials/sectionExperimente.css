@@ -37,8 +37,13 @@
   }
   .button-cta{
     font-size:0.8em;
-    padding:4% 4%;
+    padding:4% 8%;
     color:#ffffff;
     background:#333333;
+    transition:all 0.2s;
+    font-weight:bold;
+  }
+  .button-cta:hover{
+     background:#191711;
   }
 }
