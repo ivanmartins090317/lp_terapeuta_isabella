@@ -1,11 +1,14 @@
-.apresentacao picture{
+.apresentacao picture {
   display:block;
   width:100%;
   background:#FFFFFF;
+ 
 }
 .apresentacao picture img{
   width:100%;
 }
+
+
  header .container-header{
   width:100%;
   display:flex;
@@ -79,11 +82,21 @@
   color: #fff;
 }
 .menu-float{
-  width:78%;
+  width:95%;
   position:fixed;
   top:5%;
   left: 50%;
   transform: translateX(-35%);
+  
+}
+.ancor-main{
+  position:absolute;
+  width:8%;
+  height:95%;
+  background:transparent;
+  top:0;
+  left:0;
+  z-index:2;
 }
 .menu{
   width:75%;
@@ -96,7 +109,9 @@
 }
 .menu img{
   width:7%;
+  position:relative;
 }
+
 .menu ul{
   display:flex;
   justify-content: center;
@@ -104,22 +119,36 @@
   list-style:none;
   gap:4%;
   font-family:sans-serif;
+  cursor:pointer;
 }
 .menu ul li{
-  font-size:1vw;
+  font-size:0.8vw;
   border:1px solid rgba(1, 1, 1, 0.2);
   border-radius:10px;
   padding:3% 2%;
   color:#29261d;
   transition: border 1s ease-in-out;
 }
+.menu ul li a{
+  color: #333333;
+}
 .menu ul li:hover{
   border:1px solid #ffffff;
 }
-.menu button{
+.menu .button{
+  display:grid;
+  place-items:center;
+ text-align:center;
  padding:1% 4%;
  border-radius:12px;
  font-family:sans-serif;
+ background:#ffffff;
+ color:#333333;
+ font-weight:700;
+ transition:all 0.5s ease-in-out;
+}
+.menu .button:hover{
+  background:#fff5f5
 }
 /* EFEITO PARA ENTRADA DO MENU */
 
